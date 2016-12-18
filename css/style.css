@@ -2,6 +2,7 @@ body{
 	font-family: arial,helvetica;
 	color: #333;
 	color: rgba(0,0,0,0.5);
+	background-color: black;
 }
 h1{
 	font-size: 6em;
