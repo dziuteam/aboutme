@@ -237,7 +237,10 @@ p{
 	}
 	.h1s1 {
 	font-size: 14px;
-}
+	}
+	.col-xs-12 p {
+		width: 80%;
+	}
 	#section3 h1 {
 		font-size: 25px;
 	}
