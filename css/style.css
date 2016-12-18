@@ -1,0 +1,268 @@
+body{
+	font-family: arial,helvetica;
+	color: #333;
+	color: rgba(0,0,0,0.5);
+}
+h1{
+	font-size: 6em;
+}
+p{
+	font-size: 2em;
+	color: #EBB453;
+}
+.skil {
+	padding-top: 30px;
+}
+.skil img {
+	width: 100px;
+	height: 100px;
+}
+.skil2 {
+	padding-top: 15px;
+}
+.frst-bgr {
+	background: url(img/bg1.jpg) no-repeat;
+}
+#section0 {
+	background-color: #000;
+	background-size: cover;
+	z-index: 2;
+}
+#section0 h1 {
+	position: initial;
+	text-shadow: 1px 1px 0px #EBB453;
+	color: #856255;
+	font-size: 55px;
+	float: left;
+	width: 25%;
+	margin: 0 auto;
+}
+.type-wrap {
+	float: right;
+	width: 25%
+	margin: 0 auto;
+	font-size: 35px;
+	color: #EBB453;
+}
+#section0 p {
+	text-shadow: 0 0 6px black;
+}
+
+.typed-cursor{
+            opacity: 1;
+            font-weight: 100;
+            -webkit-animation: blink 0.7s infinite;
+            -moz-animation: blink 0.7s infinite;
+            -ms-animation: blink 0.7s infinite;
+            -o-animation: blink 0.7s infinite;
+            animation: blink 0.7s infinite;
+        }
+        @-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-webkit-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-moz-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-ms-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-o-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+
+#section1 {
+	background: url(img/bg2.jpg) no-repeat;
+	background-position: center;
+}
+.h1s1 {
+	font-size: 24px;
+	width: 50%;
+	margin: 0 auto;
+	color: #EBB453;
+}
+#section1 p {
+	font-size: 1em;
+}
+#section2 {
+	background: url(img/bg3.jpeg) no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+#section2 p {
+	font-size: 1em;
+}
+
+.intro p{
+	width: 50%;
+	margin: 0 auto;
+	font-size: 1.5em;
+}
+.intro ul {
+	list-style-type: none;
+	text-align: left;
+}
+.intro ul li {
+	padding: 10px;
+}
+.section{
+	text-align:center;
+}
+#menu li {
+	display:inline-block;
+	margin: 10px;
+	color: #000;
+	background:#fff;
+	background: rgba(132,98,37,0.5);
+	-webkit-border-radius: 10px;
+            border-radius: 10px;
+}
+#menu li.active{
+	background:#666;
+	background: rgba(0,0,0, 0.5);
+	color: #fff;
+}
+#menu li a{
+	text-decoration:none;
+	color: #000;
+}
+#menu li.active a:hover{
+	color: #000;
+}
+#menu li:hover{
+	background: rgba(234, 204, 138, 0.8);
+}
+#menu li a,
+#menu li.active a{
+	padding: 9px 18px;
+	display:block;
+}
+#menu li.active a{
+	color: #fff;
+}
+#menu{
+	position:fixed;
+	top:0;
+	left:0;
+	height: 40px;
+	z-index: 70;
+	width: 100%;
+	padding: 0;
+	margin:0;
+}
+.my-proj {
+	margin-top: 15vh;
+	margin-bottom: 2vh;
+	width: 55%;
+	border: 2px solid grey;
+	box-shadow: 4px 4px 4px #808080;
+}
+#section2 a {
+	color: white;
+}
+#section3 {
+	background-image: url(img/bg5.jpg);
+	background-size: cover;
+	z-index: 2;
+}
+#section3 h1 {
+	color: #856255;
+	text-shadow: 1px 1px 0px #EBB453;
+}
+#section3 p {
+	text-shadow: 1px 1px 4px black;
+}
+#footer {
+	position:fixed;
+		height: 20px;
+		display:block;
+		width: 100%;
+		background: #502E08;
+		z-index:9;
+		text-align:center;
+		color: #EBB453;
+		padding: 5px 0 0 0;
+		bottom: 0px;
+		font-size: 10px;
+	}
+
+@media screen and (max-width: 767px) {
+	#menu {
+		font-size: 10px;
+	}
+	#menu li a, #menu li.active a {
+		padding: 5px 15px;
+    	display: block;
+    	margin: 0 auto;
+	}
+	.col-xs-12 img {
+		width: 20px;
+		height: 20px;
+	}
+	.skil {
+		font-size: 11px;
+	}
+	.skil2 {
+		padding-top: 0;
+		margin-top: 0;
+	}
+	#section0 h1 {
+		font-size: 35px;
+		text-shadow: 1px 1px 0px #EBB453;
+	}
+	#section0 p {
+		font-size: 20px;
+	}
+	#section3 h1 {
+		font-size: 25px;
+	}
+	#section3 p {
+		font-size: 20px;
+	}	
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+	#menu {
+		font-size: 14px;
+	}
+	#menu li a, #menu li.active a {
+		padding: 5px 20px;
+    	display: block;
+    	margin: 0 auto;
+	}
+	.col-xs-12 img {
+		width: 40px;
+		height: 40px;
+	}
+	.skil {
+		font-size: 11px;
+	}
+	#section0 h1 {
+		font-size: 55px;
+		text-shadow: 1px 1px 0px #EBB453;
+	}
+	#section0 p {
+		font-size: 30px;
+	}
+	#section3 h1 {
+		font-size: 45px;
+	}
+	#section3 p {
+		font-size: 30px;
+	}	
+	.col-sm-6 {
+		height: 90px;
+		margin-bottom: 10px;
+	}
+}
