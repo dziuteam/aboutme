@@ -224,6 +224,7 @@ p{
 		font-size: 35px;
 		text-shadow: 1px 1px 0px #EBB453;
 		float: none;
+		width: 100%;
 	}
 	.type-wrap {
 		font-size: 20px;
@@ -259,6 +260,7 @@ p{
 		font-size: 45px;
 		text-shadow: 1px 1px 0px #EBB453;
 		float: none;
+		width: 100%;
 	}
 	.type-wrap {
 		font-size: 30px;
