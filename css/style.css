@@ -89,6 +89,12 @@ p{
 	background: url(img/bg2.jpg) no-repeat;
 	background-position: center;
 }
+.h1s1 {
+	font-size: 24px;
+	width: 50%;
+	margin: 0 auto;
+	color: #EBB453;
+}
 #section1 p {
 	font-size: 1em;
 }
@@ -223,6 +229,9 @@ p{
 		font-size: 20px;
 		float: none;
 	}
+	.h1s1 {
+	font-size: 14px;
+}
 	#section3 h1 {
 		font-size: 25px;
 	}
@@ -255,6 +264,9 @@ p{
 		font-size: 30px;
 		float: none;
 	}
+	.h1s1 {
+	font-size: 18px;
+}
 	#section3 h1 {
 		font-size: 45px;
 	}
