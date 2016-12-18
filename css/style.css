@@ -36,15 +36,15 @@ p{
 	color: #856255;
 	font-size: 55px;
 	float: left;
-	width: 25%;
 	margin: 0 auto;
+	padding-left: 5%;
 }
 .type-wrap {
 	float: right;
-	width: 25%
 	margin: 0 auto;
 	font-size: 35px;
 	color: #EBB453;
+	padding-right: 5%;
 }
 #section0 p {
 	text-shadow: 0 0 6px black;
@@ -225,11 +225,15 @@ p{
 		text-shadow: 1px 1px 0px #EBB453;
 		float: none;
 		width: 100%;
+		padding-left: 0;
+		text-align: center;
 	}
 	.type-wrap {
-		font-size: 20px;
+		font-size: 18px;
 		float: none;
 		padding-top: 20%;
+		text-align: center;
+		padding-right: 0;
 	}
 	.h1s1 {
 	font-size: 14px;
@@ -262,11 +266,15 @@ p{
 		text-shadow: 1px 1px 0px #EBB453;
 		float: none;
 		width: 100%;
+		text-align: center;
+		padding-left: 0;
 	}
 	.type-wrap {
-		font-size: 30px;
+		font-size: 25px;
 		float: none;
 		padding-top: 20%;
+		text-align: center;
+		padding-right: 0;
 	}
 	.h1s1 {
 	font-size: 18px;
