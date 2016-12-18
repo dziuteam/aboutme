@@ -220,11 +220,11 @@ p{
 		padding-top: 0;
 		margin-top: 0;
 	}
-	#section0 h1 {
+	.h1s1 {
 		font-size: 35px;
 		text-shadow: 1px 1px 0px #EBB453;
 	}
-	#section0 p {
+	.type-wrap {
 		font-size: 20px;
 	}
 	#section3 h1 {
@@ -250,11 +250,11 @@ p{
 	.skil {
 		font-size: 11px;
 	}
-	#section0 h1 {
+	.h1s1 {
 		font-size: 55px;
 		text-shadow: 1px 1px 0px #EBB453;
 	}
-	#section0 p {
+	.type-wrap {
 		font-size: 30px;
 	}
 	#section3 h1 {
